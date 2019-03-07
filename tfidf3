@@ -2,7 +2,7 @@ def computeTF(wordDict, bow):
     tfDict = {}
     bowCount = len{bow}
     for word, count in wordDict.items():
-        tfDict{word} = count/float(bowcount)
+        tfDict{word} = count/float(bowCount)
     return tfDict                            #计算TF
 def conputeIDF(docList):
     import math
